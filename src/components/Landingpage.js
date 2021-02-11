@@ -35,7 +35,7 @@ class Landingpage extends Component {
       <div className="addressbadge"><br/>
         <h6 style={{fontSize:12,color:' #89C66C'}}><GeoAlt /> Aku Village Base (IV), Antenna Mararaba</h6>
         <h6 style={{fontSize:15,color:' #89C66C'}} ><TelephoneOutbound /> 08101831001</h6>
-        <p  style={{fontSize:10,color:'black',padding:'auto',width:10,}} >you can actually give us a call by making a click on the above number</p>
+       
       </div>
 
       
@@ -45,7 +45,7 @@ class Landingpage extends Component {
     </Col>
     <Col xl={6} sm={6} md={6} xs={12}>
       <div className="about">
-        <center>
+         <center>
         <h4 style={{color:'red',}}>Welcome to <span style={{color:'#95232A'}}>BESTIMOH FOUNDATION ACADEMY</span></h4>
         </center>
         <h1><CardText style={{color:'red',}} /> <span style={{fontSize:20,}}>About</span></h1>
