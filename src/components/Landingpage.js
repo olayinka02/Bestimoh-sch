@@ -48,7 +48,7 @@ class Landingpage extends Component {
          <center>
         <h5 style={{color:'#95280B',}}>Welcome to <span style={{color:'#95232A'}}><b>BESTIMOH FOUNDATION ACADEMY</b></span></h5>
         </center>
-        <h1><CardText style={{color:'red',}} /> <span style={{fontSize:20,color:'#DD3D3D'}}>About</span></h1>
+        <h1><CardText style={{color:'red',}}/> <span style={{fontSize:20,color:'#DD3D3D'}}>About</span></h1>
         
         <p style={{justifyContent:'center',color:'whitesmoke',paddingLeft:10,paddingRight:10,}}>At Bestimoh, our goal is to make out of your child a well-developed 
         person who is academically sound, mentally stable and spiritually mature. 
