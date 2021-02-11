@@ -1,0 +1,131 @@
+@import url('https://fonts.googlerapis.com/css?family=Source+Sans+Pro&display=swap');
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mr-auto{
+  margin-left:0rem;
+  
+}
+div.landingpage{
+  margin-top: 3rem;
+}
+div.badge{
+  background-color: #ffffff;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding-top: 1rem;
+  margin-top:2rem;
+  padding-right:2rem;
+  padding-left:2rem; 
+  text-align: center;
+}
+.schoolname{
+  color: rgb(132, 209, 15);
+}
+div.about{
+  padding-left:0 auto;
+  padding-right:0 auto;
+  padding-top:2rem;
+}
+div.badgeplaceone{
+  margin-left:-1.6rem;
+  margin-right:-1.6rem;
+  padding-right:0 auto;
+  padding-left: 0 auto;
+  background-color: #eff0ef ;
+  height:6rem;
+}
+div.badgeplacetwo{
+  margin-left:-1.6rem;
+  margin-right:-1.6rem;
+  padding-right:0 auto;
+  padding-left: 0 auto;
+  background-color:white ;
+  height:10rem;
+}
+div.badgebody{
+  background-color: white;
+  border-radius: 100% 100%;
+  border:thick solid #89C66C ;
+  border-width: 2px;
+  width:70%;
+  height:80%;
+}
+div.addressbadge{
+  height:6rem;
+  border:thick solid  ;
+  border-top-color:#89C66C ;
+  border-bottom-color:#eff0ef  ;
+  border-left: #eff0ef ;
+  border-right: #eff0ef ;
+  border-width: 2px;
+  background-color: #eff0ef ;
+  margin-top:-2rem;
+  margin-left:-1.6rem;
+  margin-right:-1.6rem;
+  padding-right:0 auto;
+  padding-left: 0 auto;
+  border-radius: 0.3rem;
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  .mr-auto{
+    margin-left:0rem;
+    
+  }
+  
+	
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+  .mr-auto{
+    margin-left:0rem;
+    
+  }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+	html{
+    overflow-x: hidden;
+  }
+  .mr-auto{
+    margin-left:0rem;
+    
+  }
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  html{
+    overflow-x: hidden;
+  }
+  .mr-auto{
+    margin-left:16rem;
+    
+  }
+ 
+
+}
