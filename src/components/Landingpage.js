@@ -57,7 +57,7 @@ class Landingpage extends Component {
         
         We celebrate the values and heritage of Nigeria.We are committed to giving hope to the academically challenged child, as 
         we ensure that no student is allowed to remain or labelled dull. In other words, 
-        we give individualized attention to such students.</p>
+        we give individualized attention to such students. </p>
        
       </div>
     </Col>
