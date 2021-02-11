@@ -46,20 +46,16 @@ class Landingpage extends Component {
     <Col xl={6} sm={6} md={6} xs={12}>
       <div className="about">
          <center>
-        <h4 style={{color:'red',}}>Welcome to <span style={{color:'#95232A'}}>BESTIMOH FOUNDATION ACADEMY</span></h4>
+        <h5 style={{color:'#95280B',}}>Welcome to <span style={{color:'#95232A'}}><b>BESTIMOH FOUNDATION ACADEMY</b></span></h5>
         </center>
-        <h1><CardText style={{color:'red',}} /> <span style={{fontSize:20,}}>About</span></h1>
+        <h1><CardText style={{color:'red',}} /> <span style={{fontSize:20,color:'#DD3D3D'}}>About</span></h1>
         
-        <p style={{justifyContent:'center',color:'white',}}>At Hallmark, our goal is to make out of your child a well-developed 
+        <p style={{justifyContent:'center',color:'whitesmoke',paddingLeft:10,paddingRight:10,}}>At Bestimoh, our goal is to make out of your child a well-developed 
         person who is academically sound, mentally stable and spiritually mature. 
         We pride ourselves on our determination to raise pupils who have instilled 
-        in them the culture of discipline and hard work.We offer a rich National 
-        British Curriculum, which is designed to effectively prepare our students 
-        for the International General Certificate of Secondary Education (IGCSE)examination, 
-        in our Secondary School. Although we are one of the few British international schools 
-        in Nigeria that strictly run a British curriculum, we are proudly Nigerians. While we 
-        train our students to become global citizens, we celebrate the values and heritage of 
-        Nigeria.We are committed to giving hope to the academically challenged child, as 
+        in them the culture of discipline and hard work.We offer Federal govt of Nigeria curriculum, which is designed to effectively prepare our students 
+        
+        We celebrate the values and heritage of Nigeria.We are committed to giving hope to the academically challenged child, as 
         we ensure that no student is allowed to remain or labelled dull. In other words, 
         we give individualized attention to such students.</p>
        

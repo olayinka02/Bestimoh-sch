@@ -78,10 +78,10 @@ div.addressbadge{
   padding-right:0 auto;
   padding-left: 0 auto;
   border-radius: 0.3rem;
-
-
 }
-
+div.carouselbody{
+  margin-top:2rem;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
@@ -125,6 +125,9 @@ div.addressbadge{
   .mr-auto{
     margin-left:16rem;
     
+  }
+  div.carouselbody{
+    margin-top:0rem;
   }
  
 

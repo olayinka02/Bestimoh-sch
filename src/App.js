@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbarx';
 import Landingpage from './components/Landingpage';
+import Displaypage from './components/Displaypage';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div>
         <div >
         <Navbar />
+        <Displaypage />
         <Landingpage />
         </div>
        
