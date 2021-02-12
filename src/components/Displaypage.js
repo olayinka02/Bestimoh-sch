@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Carousel,  } from 'react-bootstrap';
 import school1 from './image/school1.svg';
-import school2 from './image/school2.svg';
-import school3 from './image/school3.svg';
-import school4 from './image/school4.svg';
-import school5 from './image/school5.svg';
-import school6 from './image/school6.svg';
-import school7 from './image/school7.svg';
 
 class Displaypage extends Component {
 
@@ -30,7 +24,7 @@ class Displaypage extends Component {
             <Carousel.Item interval={500}>
                 <img
                 className="d-block w-100"
-                src={school2}
+                src={school1}
                 alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -41,7 +35,7 @@ class Displaypage extends Component {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={school3}
+                src={school1}
                 alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -52,7 +46,7 @@ class Displaypage extends Component {
             <Carousel.Item interval={1000}>
                 <img
                 className="d-block w-100"
-                src={school4}
+                src={school1}
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -63,7 +57,7 @@ class Displaypage extends Component {
             <Carousel.Item interval={1000}>
                 <img
                 className="d-block w-100"
-                src={school5}
+                src={school1}
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -74,7 +68,7 @@ class Displaypage extends Component {
             <Carousel.Item interval={1000}>
                 <img
                 className="d-block w-100"
-                src={school6}
+                src={school1}
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -85,7 +79,7 @@ class Displaypage extends Component {
             <Carousel.Item interval={1000}>
                 <img
                 className="d-block w-100"
-                src={school7}
+                src={school1}
                 alt="First slide"
                 />
                 <Carousel.Caption>
