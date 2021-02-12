@@ -93,39 +93,7 @@ class Displaypage extends Component {
                
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img
-                className="d-block w-100"
-                src={school1}
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-               
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img
-                className="d-block w-100"
-                src={school1}
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-               
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img
-                className="d-block w-100"
-                src={school1}
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-               
-                </Carousel.Caption>
-            </Carousel.Item>
+           
             </Carousel>
             </Container>
 
