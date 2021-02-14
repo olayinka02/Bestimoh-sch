@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import { CardText, GeoAlt, TelephoneOutbound, HandIndex, HandIndexFill, Lightbulb, Building, PersonFill } from "react-bootstrap-icons";
+import { CardText, GeoAlt, TelephoneOutbound, HandIndexFill, Lightbulb, Building, PersonFill } from "react-bootstrap-icons";
 import schbadge from './image/schbadge.svg';
 import ola1 from './image/ola1.jpg';
 
@@ -166,7 +166,7 @@ class Landingpage extends Component {
          </Col>
          <Col xs={12} sm={7}>
          <div>
-         <iframe className="vid" src="https://player.vimeo.com/video/11204942?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+         <iframe className="vid" src="https://player.vimeo.com/video/11204942?title=0&byline=0&portrait=0" title="vide0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
          </div>
          </Col>
        </Row>
