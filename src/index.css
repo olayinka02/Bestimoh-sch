@@ -20,6 +20,7 @@ code {
 }
 div.landingpage{
   margin-top: 3rem;
+  border-radius:2rem 0 2rem 0;
 }
 div.badge{
   background-color: #ffffff;
@@ -30,21 +31,28 @@ div.badge{
   padding-right:2rem;
   padding-left:2rem; 
   text-align: center;
+  border-radius:1rem 0 1rem 0;
 }
 .schoolname{
   color: rgb(132, 209, 15);
 }
 div.about{
-  padding-left:0 auto;
-  padding-right:0 auto;
-  padding-top:2rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  padding-top:3rem;
+  padding-bottom:3rem;
+  background-color:black;
+  margin-top:2rem;
+  margin-left:0.8rem;
+  margin-right:0.8rem;
+  border-radius:1.2rem 0 1.2rem 0;
 }
 div.badgeplaceone{
   margin-left:-1.6rem;
   margin-right:-1.6rem;
   padding-right:0 auto;
   padding-left: 0 auto;
-  background-color: #eff0ef ;
+  background-color: black ;
   height:6rem;
 }
 div.badgeplacetwo{
@@ -71,7 +79,7 @@ div.addressbadge{
   border-left: #eff0ef ;
   border-right: #eff0ef ;
   border-width: 2px;
-  background-color: #eff0ef ;
+  background-color:black ;
   margin-top:-2rem;
   margin-left:-1.6rem;
   margin-right:-1.6rem;
@@ -82,12 +90,145 @@ div.addressbadge{
 div.carouselbody{
   margin-top:2rem;
 }
+.displayimage{
+  width:100%;
+  height:20vh;
+}
+div.speech{
+  background-color: black;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-top:1.7rem;
+  padding-bottom:1rem;
+  margin-top: 4rem;
+  border-radius:1.2rem 0 1.2rem 0;
+}
+img.speechimage{
+  height:8rem;
+  width:8rem;
+  border-radius:100% 100%;
+}
+div.speechline{
+  height:0.2rem;
+  width:11rem;
+  background-color:#89C66C;
+  border-radius:5rem;
+}
+div.video{
+  background-color:black;
+  padding-left:1.8rem;
+  padding-right:1.8rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin-top:3rem;
+  border-radius:1.2rem 0 1.2rem 0;
+}
+div.videotitle{
+  padding-left:0 auto;
+  padding-right:0 auto;
+}
+div.standquote{
+  width:auto;
+}
+iframe.vid{
+  width:18rem;
+  height:17rem;
+}
+div.pride{
+  background-color: whitesmoke;
+  width:100%;
+  height: auto;
+  margin-top:3rem;
+  border-radius:1.2rem 0 1.2rem 0;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+
+}
+div.speechlinex{
+  height:0.2rem;
+  width:14rem;
+  background-color:#89C66C;
+  border-radius:5rem;
+}
+div.pridecircle{
+  height:8rem;
+  width:8rem;
+  border-radius:100% 100%;
+  background-color:black;
+}
+div.pridebox{
+  background-color:black;
+  border-radius:1.2rem 0 1.2rem 0;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-bottom:0.5rem;
+  margin-top:-4rem;
+
+}
+
+
+
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
   .mr-auto{
     margin-left:0rem;
     
+  }
+  .displayimage{
+    width:100%;
+    height:80vh;
+  }
+  div.about{
+    padding-left:0 auto;
+    padding-right:0 auto;
+    padding-top:2rem;
+    padding-bottom:3rem;
+    background-color:black;
+    margin-top:2rem;
+    margin-left:0 auto;
+    margin-right:0 auto;
+  }
+  div.video{
+    background-color:black;
+    padding-left:1.8rem;
+    padding-right:1.8rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+  }
+  div.videotitle{
+    padding-left:0 auto;
+    padding-right:0 auto;
+  }
+  div.standquote{
+    width:auto;
+  }
+  iframe.vid{
+    width:18rem;
+    height:17rem;
+  }
+  div.speechlinex{
+    height:0.2rem;
+    width:19rem;
+    background-color:#89C66C;
+    border-radius:5rem;
+  }
+  div.pride{
+    background-color: whitesmoke;
+    width:100%;
+    height: auto;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
   }
   
 	
@@ -99,6 +240,60 @@ div.carouselbody{
     margin-left:0rem;
     
   }
+  .displayimage{
+    width:100%;
+    height:80vh;
+  }
+  div.about{
+    padding-left:0 auto;
+    padding-right:0 auto;
+    padding-top:2rem;
+    padding-bottom:3rem;
+    background-color:black;
+    margin-top:2rem;
+    margin-left:0 auto;
+    margin-right:0 auto;
+  }
+  div.video{
+    background-color:black;
+    padding-left:1.8rem;
+    padding-right:1.8rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+  }
+  div.videotitle{
+    padding-left:0 auto;
+    padding-right:0 auto;
+  }
+  div.standquote{
+    width:auto;
+  }
+  iframe.vid{
+    width:18rem;
+    height:17rem;
+  }
+  div.speechlinex{
+    height:0.2rem;
+    width:19rem;
+    background-color:#89C66C;
+    border-radius:5rem;
+  }
+  div.pride{
+    background-color: whitesmoke;
+    width:100%;
+    height: auto;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+  }
+  
+  
+
 
 }
 
@@ -113,6 +308,58 @@ div.carouselbody{
     margin-left:0rem;
     
   }
+  .displayimage{
+    width:100%;
+    height:80vh;
+  }
+  div.about{
+    padding-left:0 auto;
+    padding-right:0 auto;
+    padding-top:2rem;
+    padding-bottom:3rem;
+    background-color:black;
+    margin-top:2rem;
+    margin-left:0 auto;
+    margin-right:0 auto;
+  }
+  div.video{
+    background-color:black;
+    padding-left:1.8rem;
+    padding-right:1.8rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+  }
+  div.videotitle{
+    padding-left:0 auto;
+    padding-right:0 auto;
+  }
+  div.standquote{
+    width:auto;
+  }
+  iframe.vid{
+    width:18rem;
+    height:17rem;
+  }
+  div.speechlinex{
+    height:0.2rem;
+    width:19rem;
+    background-color:#89C66C;
+    border-radius:5rem;
+  }
+  div.pride{
+    background-color: whitesmoke;
+    width:100%;
+    height: auto;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+  }
+  
  
 }
 
@@ -129,6 +376,58 @@ div.carouselbody{
   div.carouselbody{
     margin-top:0rem;
   }
- 
-
+  .displayimage{
+    width:100%;
+    height:80vh;
+  }
+  div.about{
+    padding-left:0 auto;
+    padding-right:0 auto;
+    padding-top:2rem;
+    padding-bottom:3rem;
+    background-color:black;
+    margin-top:2rem;
+    margin-left:0 auto;
+    margin-right:0 auto;
+  }
+  div.video{
+    background-color:black;
+    padding-left:5rem;
+    padding-right:5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+  }
+  div.videotitle{
+    padding-left:9rem;
+    padding-right:9rem;
+  }
+  div.standquote{
+    width:19rem;
+    
+  }
+  iframe.vid{
+    width:35rem;
+    height:21rem;
+  }
+  div.speechlinex{
+    height:0.2rem;
+    width:19rem;
+    background-color:#89C66C;
+    border-radius:5rem;
+  }
+  div.pride{
+    background-color: whitesmoke;
+    width:100%;
+    height: auto;
+    margin-top:3rem;
+    border-radius:1.2rem 0 1.2rem 0;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+  }
+  
+  
 }

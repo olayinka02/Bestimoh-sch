@@ -10,7 +10,7 @@ class App extends Component {
         <div >
         <Navbar />
         <Displaypage />
-        <Landingpage />
+        <Landingpage /><br/>
         </div>
        
       

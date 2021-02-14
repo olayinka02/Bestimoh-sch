@@ -10,9 +10,9 @@ class Displaypage extends Component {
         <div className="carouselbody">
             <Container fluid>
             <Carousel>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={1000} >
                 <img
-                className="d-block w-100"
+                className="d-block w-100 "
                 src={school1}
                 alt="First slide"
                 />
@@ -21,7 +21,7 @@ class Displaypage extends Component {
               
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={1000}  >
                 <img
                 className="d-block w-100"
                 src={school1}
@@ -32,7 +32,7 @@ class Displaypage extends Component {
                
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item  interval={1000}  >
                 <img
                 className="d-block w-100"
                 src={school1}
