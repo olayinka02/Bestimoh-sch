@@ -43,8 +43,8 @@ div.about{
   padding-bottom:3rem;
   background-color:black;
   margin-top:2rem;
-  margin-left:0.8rem;
-  margin-right:0.8rem;
+  margin-left:0.0001rem;
+  margin-right:0.0001rem;
   border-radius:1.2rem 0 1.2rem 0;
 }
 div.badgeplaceone{
@@ -86,6 +86,8 @@ div.addressbadge{
   padding-right:0 auto;
   padding-left: 0 auto;
   border-radius: 0.3rem;
+ 
+  
 }
 div.carouselbody{
   margin-top:2rem;
@@ -102,6 +104,9 @@ div.speech{
   padding-bottom:1rem;
   margin-top: 4rem;
   border-radius:1.2rem 0 1.2rem 0;
+  box-shadow: 5px 10px 8px #181717;
+  
+
 }
 img.speechimage{
   height:8rem;
@@ -124,15 +129,14 @@ div.video{
   border-radius:1.2rem 0 1.2rem 0;
 }
 div.videotitle{
-  padding-left:0 auto;
-  padding-right:0 auto;
+  padding-left:-2rem;
+  padding-right:-2rem;
 }
 div.standquote{
   width:auto;
 }
 iframe.vid{
-  width:18rem;
-  height:17rem;
+ display:none;
 }
 div.pride{
   background-color: whitesmoke;
@@ -157,15 +161,29 @@ div.pridecircle{
   width:8rem;
   border-radius:100% 100%;
   background-color:black;
+  box-shadow: 2px 5px 3px #0e0d0d;
+  
 }
 div.pridebox{
   background-color:black;
   border-radius:1.2rem 0 1.2rem 0;
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
   padding-bottom:0.5rem;
   margin-top:-4rem;
-
+  margin-left:-0.6rem;
+  margin-right:-0.6rem;
+  box-shadow: 2px 5px 3px #0e0d0d;
+}
+div.seniorquote{
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 5px 3px #c9c8c8;
 }
 
 
@@ -212,6 +230,7 @@ div.pridebox{
   iframe.vid{
     width:18rem;
     height:17rem;
+    display: block;
   }
   div.speechlinex{
     height:0.2rem;
@@ -273,6 +292,7 @@ div.pridebox{
   iframe.vid{
     width:18rem;
     height:17rem;
+    display: block;
   }
   div.speechlinex{
     height:0.2rem;
@@ -341,6 +361,7 @@ div.pridebox{
   iframe.vid{
     width:18rem;
     height:17rem;
+    display: block;
   }
   div.speechlinex{
     height:0.2rem;
@@ -410,6 +431,7 @@ div.pridebox{
   iframe.vid{
     width:35rem;
     height:21rem;
+    display: block;
   }
   div.speechlinex{
     height:0.2rem;
