@@ -52,7 +52,7 @@ div.badgeplaceone{
   margin-right:-1.6rem;
   padding-right:0 auto;
   padding-left: 0 auto;
-  background-color: black ;
+  background-color:white;
   height:6rem;
 }
 div.badgeplacetwo{
@@ -86,6 +86,7 @@ div.addressbadge{
   padding-right:0 auto;
   padding-left: 0 auto;
   border-radius: 0.3rem;
+  border-radius:1.2rem 0 1.2rem 0;
  
   
 }
@@ -140,7 +141,7 @@ iframe.vid{
 }
 div.pride{
   background-color: whitesmoke;
-  width:100%;
+ 
   height: auto;
   margin-top:3rem;
   border-radius:1.2rem 0 1.2rem 0;
@@ -148,6 +149,7 @@ div.pride{
   padding-right:1.5rem;
   padding-top:2rem;
   padding-bottom: 2rem;
+ 
 
 }
 div.speechlinex{
@@ -176,14 +178,29 @@ div.pridebox{
   box-shadow: 2px 5px 3px #0e0d0d;
 }
 div.seniorquote{
-  margin-left:0.5rem;
-  margin-right:0.5rem;
+  margin-left:0.1rem;
+  margin-right:0.1rem;
   padding-top:2rem;
   padding-bottom:2rem;
-  padding-left:1rem;
-  padding-right:1rem;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 2px 5px 3px #c9c8c8;
+  padding-left:0.1rem;
+  padding-right:0.1rem;
+  background-color:none;
+  box-shadow:none;
+  display: block;
+}
+div.anthem{
+  padding-left:0.2rem;
+  padding-right:0.2rem;
+}
+div.numberone{
+  background-color:none;
+  border:#95232A 1.5px solid ;
+  border-radius:1.2rem 0 1.2rem 0;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  color: white;
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 
 
@@ -249,6 +266,23 @@ div.seniorquote{
     padding-top:2rem;
     padding-bottom: 2rem;
   }
+  div.seniorquote{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 3px #c9c8c8;
+    display: block;
+  }
+  div.anthem{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  
+  
   
 	
 }
@@ -311,6 +345,23 @@ div.seniorquote{
     padding-top:2rem;
     padding-bottom: 2rem;
   }
+  div.seniorquote{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 3px #c9c8c8;
+    display: block;
+  }
+  div.anthem{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  
+  
   
   
 
@@ -380,6 +431,23 @@ div.seniorquote{
     padding-top:2rem;
     padding-bottom: 2rem;
   }
+  div.seniorquote{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 3px #c9c8c8;
+    display: block;
+  }
+  div.anthem{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  
+  
   
  
 }
@@ -441,15 +509,32 @@ div.seniorquote{
   }
   div.pride{
     background-color: whitesmoke;
-    width:100%;
+   
     height: auto;
     margin-top:3rem;
     border-radius:1.2rem 0 1.2rem 0;
-    padding-left:3rem;
-    padding-right:3rem;
+    padding-left:5rem;
+    padding-right:5rem;
     padding-top:2rem;
     padding-bottom: 2rem;
   }
+  div.seniorquote{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 3px #c9c8c8;
+    display: block;
+  }
+  div.anthem{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  
+  
   
   
 }
