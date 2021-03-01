@@ -2,10 +2,11 @@ import React, { useEffect } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { CardText, GeoAlt, TelephoneOutbound, HandIndexFill, Lightbulb, Building, PersonFill } from "react-bootstrap-icons";
+import { CardText, GeoAlt, TelephoneOutbound, HandIndexFill, Lightbulb, Building, PersonFill, TelephoneFill, EnvelopeFill } from "react-bootstrap-icons";
 import schbadge from './image/schbadge.svg';
 import ola1 from './image/ola1.jpg';
 import undraw1 from './image/undraw1.svg';
+import bestgiff from './image/bestgiff.gif';
 import Formbody from './Formbody';
 
 
@@ -291,6 +292,7 @@ import Formbody from './Formbody';
       <Row>
         <Col  data-aos="zoom-out" xs={12} md={5} >
           <center>
+          <img alt="music" src={bestgiff} style={{width:270,height:170}}/><br/>
           <img alt="music" src={undraw1} style={{width:270,height:170}}/>
           </center>
         </Col>
@@ -355,10 +357,50 @@ import Formbody from './Formbody';
          </Col>
        </Row>
      </div>
-   </Container><br/><br/>
+   </Container><br/>
 
-   <Formbody  data-aos="zoom-out"  />
+   <Container fluid >
+     <div className="info" data-aos="fade-up" >
+     <Row>
+       <Col md={4} sm={12}>
+       <div className="infox" data-aos="zoom-in">
+         <center>
+           <GeoAlt style={{color:'red',}} size={24} />
+           <h5 style={{color:'white'}}>Address</h5>
+           <p  style={{color:'white',fontSize:13}}><b>School(1):</b> Base (4) Antenna, Aku Village, Mararaba.</p>
+           <p  style={{color:'white',fontSize:13,lineHeight:0.01,}}><b>School(2):</b> Off Orange market,Mararba</p>
+         </center>
+       </div>
+       </Col>
+       <Col md={4} sm={12}>
+       <div className="infox" data-aos="zoom-in">
+       <center>
+           <TelephoneFill style={{color:'red',}} size={24} />
+           <h5 style={{color:'white'}}>Phone-Number</h5>
+           <p  style={{color:'white',fontSize:14}}>08101831001</p>
+           <p  style={{color:'white',fontSize:14,lineHeight:0.01,}}>07035764622</p>
+         </center>
+       </div>
+       </Col>
+       <Col md={4} sm={12}>
+       <div className="infox" data-aos="zoom-in">
+       <center>
+           <EnvelopeFill style={{color:'red',}} size={24} />
+           <h5 style={{color:'white'}}>Online-Address</h5>
+           <p  style={{color:'white',fontSize:14}}><b>web:</b> bestimohfoundation.com</p>
+           <p  style={{color:'white',fontSize:14,lineHeight:0.01,}}><b>Email:</b> oluwasegunyinka.gmail.com</p>
+         </center>
+       </div>
+       </Col>
+     </Row>
+     </div>
+   </Container>
 
+
+   <Formbody  />
+   
+
+  
   
 
   

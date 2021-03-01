@@ -14,17 +14,47 @@ function Formbody(props) {
       <Modal {...props} aria-labelledby="contained-modal-title-vcenter">
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Using Grid in Modal
+            Admission Form.
           </Modal.Title>
+         
         </Modal.Header>
         <Modal.Body className="show-grid">
           <Container>
             <Row>
-             <Form>
-               <Formbody>
-                 name:<input type="text" />
-               </Formbody>
-             </Form>
+            <Col md={12} sm={12}>
+            <Form>
+              <Form.Group controlId="formBasicEmail">
+                <Form.Label>Name:</Form.Label>
+                <Form.Control size="sm" type="email" placeholder="Enter email" />
+                <Form.Label>Class</Form.Label>
+
+                <Form.Control size="sm" type="email" placeholder="Enter email" />
+                <Form.Label>Email address</Form.Label>
+
+                <Form.Control size="sm" type="email" placeholder="Enter email" />
+                <Form.Label>Email address</Form.Label>
+
+                <Form.Control size="sm" type="email" placeholder="Enter email" />
+                <Form.Label>Email address</Form.Label>
+
+                <Form.Control size="sm" type="email" placeholder="Enter email" />
+                <Form.Text className="text-muted">
+                  We'll never share your email with anyone else.
+                </Form.Text>
+              </Form.Group>
+
+              <Form.Group controlId="formBasicPassword">
+                <Form.Label>Password</Form.Label>
+                <Form.Control size="sm" type="password" placeholder="Password" />
+              </Form.Group>
+              <Form.Group controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Check me out" />
+              </Form.Group>
+              <Button variant="outline-danger" type="submit">
+                Submit
+              </Button>
+            </Form>
+            </Col>
             </Row>
   
             <Row>

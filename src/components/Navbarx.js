@@ -60,18 +60,7 @@ class Navbarx extends Component {
             <Nav.Link href="#link">News</Nav.Link>
             <Nav.Link href="#link">Contact-Us</Nav.Link>
             <Dropdown>
-    <Dropdown.Toggle style={{marginTop:1,color:'green',}} variant="light"  id="dropdown-custom-components">
-      Others
-    </Dropdown.Toggle>
-
-    <Dropdown.Menu as={CustomMenu}>
-      <Dropdown.Item eventKey="1">Red</Dropdown.Item>
-      <Dropdown.Item eventKey="2">Blue</Dropdown.Item>
-      <Dropdown.Item eventKey="3" active variant="light">
-        Orange
-      </Dropdown.Item>
-      <Dropdown.Item eventKey="1">Red-Orange</Dropdown.Item>
-    </Dropdown.Menu>
+   
   </Dropdown>
             </Nav>
            

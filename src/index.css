@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom:3rem;
  
 }
 
@@ -16,7 +17,11 @@ code {
 
 .mr-auto{
   margin-left:0rem;
+  color: #0e0d0d;
   
+}
+.mr-auto:hover{
+  color: #89C66C;
 }
 div.landingpage{
   margin-top: 3rem;
@@ -222,7 +227,19 @@ div.formbody{
   width: 100%;
   padding-top:4rem;
   padding-bottom:4rem;
+  height:20rem;
+  margin-bottom:3rem;
   
+}
+div.info{
+  background-color:black;
+  width:100%;
+  border-radius:1.2rem 0 1.2rem 0;
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+div.infox{
+  padding-top:2rem;
 }
 
 
@@ -308,6 +325,10 @@ div.formbody{
   p.song{
     color:black;
   }
+  div.infox{
+    padding-top:0rem;
+  }
+  
   
   
   
@@ -391,6 +412,9 @@ div.formbody{
   }
   p.song{
     color:black;
+  }
+  div.infox{
+    padding-top:0rem;
   }
   
   
@@ -484,6 +508,9 @@ div.formbody{
   p.song{
     color:black;
   }
+  div.infox{
+    padding-top:0rem;
+  }
   
   
   
@@ -576,6 +603,9 @@ div.formbody{
   }
   p.song{
     color:black;
+  }
+  div.infox{
+    padding-top:0rem;
   }
   
   
