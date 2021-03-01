@@ -140,7 +140,7 @@ iframe.vid{
  display:none;
 }
 div.pride{
-  background-color: whitesmoke;
+  background-color:none;
  
   height: auto;
   margin-top:3rem;
@@ -158,6 +158,13 @@ div.speechlinex{
   background-color:#89C66C;
   border-radius:5rem;
 }
+div.speechlinexx{
+  height:0.2rem;
+  width:14rem;
+  background-color:white;
+  border-radius:5rem;
+}
+
 div.pridecircle{
   height:8rem;
   width:8rem;
@@ -187,10 +194,12 @@ div.seniorquote{
   background-color:none;
   box-shadow:none;
   display: block;
+  color:white;
 }
 div.anthem{
   padding-left:0.2rem;
   padding-right:0.2rem;
+  padding-top:2rem;
 }
 div.numberone{
   background-color:none;
@@ -201,6 +210,19 @@ div.numberone{
   color: white;
   margin-top:1rem;
   margin-bottom:1rem;
+}
+p.song{
+  color:whitesmoke;
+}
+div.formbody{
+  background-image:url(/src/components/image/bgform.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top:4rem;
+  padding-bottom:4rem;
+  
 }
 
 
@@ -276,10 +298,15 @@ div.numberone{
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 5px 3px #c9c8c8;
     display: block;
+    color:black;
   }
   div.anthem{
     padding-left:2rem;
     padding-right:2rem;
+    padding-top:0rem;
+  }
+  p.song{
+    color:black;
   }
   
   
@@ -355,11 +382,17 @@ div.numberone{
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 5px 3px #c9c8c8;
     display: block;
+    color:black;
   }
   div.anthem{
     padding-left:2rem;
     padding-right:2rem;
+    padding-top:0rem;
   }
+  p.song{
+    color:black;
+  }
+  
   
   
   
@@ -441,11 +474,17 @@ div.numberone{
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 5px 3px #c9c8c8;
     display: block;
+    color:black;
   }
   div.anthem{
     padding-left:2rem;
     padding-right:2rem;
+    padding-top:0rem;
   }
+  p.song{
+    color:black;
+  }
+  
   
   
   
@@ -528,11 +567,17 @@ div.numberone{
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 5px 3px #c9c8c8;
     display: block;
+    color: black;
   }
   div.anthem{
     padding-left:2rem;
     padding-right:2rem;
+    padding-top:0rem;
   }
+  p.song{
+    color:black;
+  }
+  
   
   
   

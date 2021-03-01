@@ -6,6 +6,9 @@ import { CardText, GeoAlt, TelephoneOutbound, HandIndexFill, Lightbulb, Building
 import schbadge from './image/schbadge.svg';
 import ola1 from './image/ola1.jpg';
 import undraw1 from './image/undraw1.svg';
+import Formbody from './Formbody';
+
+
 
 
 
@@ -192,9 +195,9 @@ import undraw1 from './image/undraw1.svg';
    <Container fluid>
      <div  data-aos="fade-up"  className="pride">
      <h4  style={{color:'#95232A',}}  ><b>What <span style={{color:'black',}} >makes us the best..</span></b></h4>
-     <div className="speechlinex" ></div><br/>
+     <div className="speechlinexx" ></div><br/>
        <Row>
-         <Col  data-aos="fade-up"  xs={12} md={3}>
+         <Col  data-aos="zoom-in"  xs={12} md={3}>
          <center>
          <div className="pridecircle"><br/><PersonFill style={{color:'#95232A',width:30,height:30,}}/></div>
          </center>
@@ -206,7 +209,7 @@ import undraw1 from './image/undraw1.svg';
          </div><br/>
          </Col>
 
-         <Col  data-aos="fade-up"  xs={12} md={3}>
+         <Col  data-aos="zoom-in"  xs={12} md={3}>
          <center>
          <div className="pridecircle"><br/><PersonFill style={{color:'#95232A',width:30,height:30,}} /></div>
          </center>
@@ -218,7 +221,7 @@ import undraw1 from './image/undraw1.svg';
          </div><br/>
          </Col>
 
-         <Col  data-aos="fade-up"  xs={12} md={3}>
+         <Col  data-aos="zoom-in"  xs={12} md={3}>
          <center>
          <div className="pridecircle"><br/><PersonFill style={{color:'#95232A',width:30,height:30,}} /></div>
          </center>
@@ -231,7 +234,7 @@ import undraw1 from './image/undraw1.svg';
          </Col>
 
 
-         <Col  data-aos="fade-up"  xs={12} md={3}>
+         <Col  data-aos="zoom-in"  xs={12} md={3}>
          <center>
          <div className="pridecircle"><br/><Building style={{color:'#95232A',width:30,height:30,}} /></div>
          </center>
@@ -246,7 +249,7 @@ import undraw1 from './image/undraw1.svg';
 
 
        <h4  style={{color:'#95232A',}}  ><b>What <span style={{color:'black',}} >our students says..</span></b></h4>
-     <div className="speechlinex" ></div><br/>
+     <div className="speechlinexx" ></div><br/>
      <Row>
        <Col  data-aos="fade-up" xs={12} md={4}>
         <div className="seniorquote">
@@ -255,7 +258,7 @@ import undraw1 from './image/undraw1.svg';
             I have now spent roughly two years and half at Babcock University 
             and am now studying Computer Engineering. Thanks to 
             Hallmark Secondary School, Ondo<br/>
-            <h6 style={{float:'right',}} >olayinka</h6>
+            <h5 style={{float:'right',}} >olayinka</h5>
           </p>
 
         </div>
@@ -266,7 +269,7 @@ import undraw1 from './image/undraw1.svg';
             my time in the reception class in junior school until graduated.  
             I have now spent roughly two years and half at Babcock University 
             <br/>
-            <h6 style={{float:'right',}} >olayinka</h6>
+            <h5 style={{float:'right',}} >olayinka</h5>
           </p>
         </div>
         </Col>
@@ -275,7 +278,7 @@ import undraw1 from './image/undraw1.svg';
           <p>My name is Adesola Temitope.My stay at HSS started with 
             my time in the reception class in junior school until graduated.  
             <br/>
-            <h6 style={{float:'right',}} >olayinka</h6>
+            <h5 style={{float:'right',}} >olayinka</h5>
           </p>
         </div>
         </Col>     
@@ -293,8 +296,8 @@ import undraw1 from './image/undraw1.svg';
         </Col>
         <Col  data-aos="fade-up" xs={12} md={7}>
           <div className="anthem">
-            <h5 style={{color:'#89C66C',}}>Anthem</h5>
-            <p>Bestfioundation our school, our own oo dear school ,
+            <h5 style={{color:'#95232A',}}>Anthem</h5>
+            <p className="song">Bestfioundation our school, our own oo dear school ,
               our voices will rejoice in praise may 
               your glory so widening homwe, God bless our eacher 
               make in the dufference in acedemy, G od bless our school
@@ -302,8 +305,8 @@ import undraw1 from './image/undraw1.svg';
               our voices will rejoice in praise may 
               your glory so widening homwe, God bless our eacher 
               make in the dufference in acedemy, G od bless our school</p>
-              <h5 style={{color:'#89C66C',}} >Pledge</h5>
-            <p>Bestfioundation our school, our own oo dear school ,
+              <h5 style={{color:'#95232A',}} >Pledge</h5>
+            <p  className="song">Bestfioundation our school, our own oo dear school ,
               our voices will rejoice in praise may 
               your glory so widening homwe, God bless our eacher 
               make in the dufference in acedemy, G od bless our school
@@ -348,19 +351,23 @@ import undraw1 from './image/undraw1.svg';
            <h2>Teachers: 25</h2>
            <h2>Students: 200</h2>
            </center>
-           
-          
-
            </div>
          </Col>
        </Row>
-
      </div>
-   </Container>
+   </Container><br/><br/>
+
+   <Formbody  data-aos="zoom-out"  />
+
+  
+
+  
  </div>
     );
   }
 
+
+ 
 
 
 
