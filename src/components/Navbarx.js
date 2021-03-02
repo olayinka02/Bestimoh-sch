@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import { Navbar, Dropdown, Nav, FormControl } from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Navbar, Dropdown, Nav } from 'react-bootstrap';
 import badge from './image/badge.svg';
 
 class Navbarx extends Component {
@@ -7,9 +7,6 @@ class Navbarx extends Component {
   
   render() {
 
-   
-    
-   
     return (
       <div >
          <Navbar bg="light" style={{marginLeft:10,marginRight:10,marginTop:10,borderRadius:3}} expand="lg">
